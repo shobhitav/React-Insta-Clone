@@ -6,10 +6,7 @@ body {
     box-sizing: border-box;
 }
 
-.searchbar {
-    display: flex;
-    flex-direction: row;
-}
+
 
 .left {
     display: flex;

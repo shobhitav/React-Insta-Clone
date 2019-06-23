@@ -1,11 +1,25 @@
 import React from 'react';
 import './SearchBar.css';
+import styled from 'styled-components';
 
 const img_logo = require('./icons8-instagram-100.png');
 const img_label = require('./instagram-label.png');
 const img_compass = require('./icons8-compass-48.png');
 const img_heart = require('./icons8-heart-outline-100.png');
 const img_profile = require('./icons8-customer-32.png');
+
+// ******** SearchBar stylings *******************
+const Wrapperdiv = styled.div  `
+     display: flex;
+    flex-direction: row;
+   background-color: #cccccc;
+`
+
+
+
+
+
+
 
 class SearchBar extends React.Component {
     constructor(props) {
@@ -25,7 +39,8 @@ class SearchBar extends React.Component {
 
     render() {
         return (
-            <div className="searchbar">
+           
+            <Wrapperdiv>
                 <div className="left">
                     <img src={img_logo} className="img-logo" alt=""/>
                     <div className="vertical-line"/>
@@ -46,7 +61,8 @@ class SearchBar extends React.Component {
                     <img src={img_heart} className="img-heart" alt="" />
                     <img src={img_profile} className="img-profile" alt=""/>
                 </div>
-            </div>
+          
+            </Wrapperdiv>
         );        
     }
 };

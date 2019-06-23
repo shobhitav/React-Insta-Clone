@@ -1,0 +1,87 @@
+body {
+    font-family: Arial;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25%;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img-logo {
+    position: relative;
+    overflow: hidden;
+    width: 15%;
+    height: 30%;
+    margin: 1% 0 0 1%;
+}
+
+.vertical-line {
+    border-left: 2px solid lightgray;
+    height: 35%;
+    margin: 1.5% 0 0 2%;
+}
+
+.img-label {
+    position: relative;
+    overflow: hidden;
+    width: 15%;
+    height: 30%;
+    margin: 1.5% 0 0 2%;
+}
+
+.search-form {
+    /* margin: 2.5% 10% 0 10%; */
+}
+
+.search-input { 
+    background: url(magnifying-glass.png) no-repeat ;
+    background-size: 10px;
+    background-position: left; 
+    text-align:right;
+}
+
+.img-compass {
+    position: relative;
+    overflow: hidden;
+    width: 25%;
+    height: 40%;
+    margin-right: 10%;
+}
+
+.img-heart {
+    position: relative;
+    overflow: hidden;
+    width: 30%;
+    height: 50%;
+    margin-right: 10%;
+}
+.img-profile{
+    position: relative;
+    overflow: hidden;
+    margin-right: 10%;
+    width: 25%;
+    height: 60%;
+}
